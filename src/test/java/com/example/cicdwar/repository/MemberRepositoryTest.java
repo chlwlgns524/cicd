@@ -28,7 +28,7 @@ class MemberRepositoryTest {
 
         Member memberEntity = memberRepository.findMemberById(id);
 
-        assertThat(memberEntity).usingRecursiveComparison().isEqualTo(member);
+        assertThat(memberEntity).usingRecursiveComparison().isEqualTo(1);
     }
 
     @Test
